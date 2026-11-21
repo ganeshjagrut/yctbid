@@ -1,0 +1,11 @@
+node_modules
+dist
+.env
+.env.local
+.DS_Store
+
+# build cache
+*.tsbuildinfo
+
+# contains captain PINs and player data - keep private
+supabase/seed.sql
